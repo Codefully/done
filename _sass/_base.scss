@@ -1,0 +1,79 @@
+
+
+@import url("http://fonts.googleapis.com/css?family=Delius+Unicase:700");
+@import url("http://fonts.googleapis.com/css?family=Comfortaa:700&subset=latin,greek");
+
+.intro {
+	padding: 500px 0;
+	background: url("../img/kids.jpg") 50% 50%;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 10em;
+	line-height: 1;
+	color: #FFF;
+}
+
+@media (max-width: 1024px) {
+	.intro {
+		padding: 200px 0;
+		font-size: 5em;
+	}
+}
+
+#map {
+	height: 600px;
+	margin: 0 30px 30px;
+}
+
+header {
+	padding: 0 0 0 100px;
+	position: relative;
+	overflow: hidden;
+}
+
+header > div {
+	float: right;
+	font-family: 'Comfortaa', cursive;
+	line-height: 2;
+	padding: 20px 0;
+	div {
+		color: #FFF;
+		padding: 2px 50px 2px 30px;
+		margin-bottom: 5px;
+		font-size: 2em;
+		border-radius: 10px 0 0 10px;
+	}
+}
+
+header .txt1 {
+	background-color: #81B335;
+}
+
+header .txt2 {
+	background-color: orange;
+}
+
+header .txt3 {
+	background-color: #00A0D0;
+}
+
+header .txt4 {
+	background-color: #FD0009;
+}
+
+.info {
+	padding: 100px;
+	text-align: center;
+	line-height: 1;
+	font-size: 2em;
+	font-family: 'Comfortaa', cursive;
+	img {
+		width: 100px;
+		margin-bottom: 20px;
+	}
+	a {
+		color: #01539D;
+		text-decoration: none;
+	}
+}

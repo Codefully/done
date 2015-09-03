@@ -64,8 +64,8 @@ hr {
   color: #272727;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 20px;
-  margin: 0 0 20px;
+  padding-bottom: 35px;
+  margin: 0 0 35px;
 }
 .section-header .section-title:before {
   content: "";
@@ -90,9 +90,9 @@ hr {
   background: #45aed6;
 }
 .btn {
-  border-width: 0;
-  border-bottom-width: 3px;
-  border-radius: 3px;
+  // border-width: 0;
+  // border-bottom-width: 3px;
+  // border-radius: 3px;
 }
 .btn.btn-primary {
   background: #45aed6;

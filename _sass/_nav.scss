@@ -12,6 +12,15 @@
   height: auto;
   /*padding: 22px 15px 21px;*/
 }
+
+.navbar-default .navbar-nav > li > a {
+  color: $gray;
+}
+
+#main-menu.navbar-default .navbar-nav > li:hover > a {
+  color: $brand-primary;
+}
+
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
     background: rgba(255, 255, 255, 0.9);
@@ -23,11 +32,11 @@
     padding-bottom: 40px;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
-  #main-menu.navbar-default .navbar-nav > li.open > a,
-  #main-menu.navbar-default .navbar-nav > li:hover > a {
+  #main-menu.navbar-default .navbar-nav > li.open > a {
     background: transparent;
     padding-top: 37px;
     border-top: 3px solid $brand-primary;
+    color: $brand-primary;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;

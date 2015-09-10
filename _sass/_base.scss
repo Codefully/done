@@ -46,10 +46,11 @@
   .contact-form {
     background: rgba(255, 255, 255, .9);
     padding: 30px 30px 10px;
-    top: 0px;
+    top: 20px;
     z-index: 1000;
     position: absolute;
     line-height: 1.5;
+    border-radius: 4px;
     address {
       line-height: 2;
     }

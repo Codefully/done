@@ -1,0 +1,20 @@
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: $gray;
+}
+
+a {
+  color: $brand-primary;
+  -webkit-transition: color 400ms, background-color 400ms;
+  -moz-transition: color 400ms, background-color 400ms;
+  -o-transition: color 400ms, background-color 400ms;
+  transition: color 400ms, background-color 400ms;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: #2a95be;
+  }
+}

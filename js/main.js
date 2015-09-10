@@ -117,32 +117,20 @@ jQuery(function($) {
 
 
 	//////////////////////////////////////////////////////////////////////////////
-	// photoswipe
-	// var pswpElement = document.querySelectorAll('.pswp')[0];
+	// smooth scroll
+	// https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
-	// build items array
-	// var items = [
-	//     {
-	//         src: 'https://placekitten.com/600/400',
-	//         w: 600,
-	//         h: 400
-	//     },
-	//     {
-	//         src: 'https://placekitten.com/1200/900',
-	//         w: 1200,
-	//         h: 900
-	//     }
-	// ];
-
-	// define options (if needed)
-	// var options = {
-	    // optionName: 'option value'
-	    // for example:
-	    // index: 0 // start at first slide
-	// };
-
-	// Initializes and opens PhotoSwipe
-	// var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-	// gallery.init();
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 100
+        }, 1000);
+        return false;
+      }
+    }
+  });
 
 });

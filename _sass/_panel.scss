@@ -1,0 +1,16 @@
+
+
+.panel-default {
+  border-color: $gray-lighter;
+}
+.panel-default > .panel-heading {
+  background-color: #FFF;
+  border-color: $gray-lighter;
+}
+.panel-default > .panel-heading .panel-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: $gray-lighter;
+}

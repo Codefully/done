@@ -1,16 +1,72 @@
-#newsletter
-{
+
+
+.slider-header {
+  position: absolute;
+  top: 100px;
+  z-index: 1000;
+  left: 0;
+  width: 100%;
+  background: rgba(#000, .5);
+  margin: 0;
+  padding: 5px 10px 3px;
+  font-size: 1em;
+  color: #FFF;
+}
+
+#newsletter{
+  padding: 100px 0;
+  background-color: #EEE;
+}
+
+#gallery {
+  padding: 100px 0;
+  background: $gray-lighter;
+}
+
+#about {
   padding: 100px 0;
 }
 
-#facebook-icon
-{
-  font-size:50px;
+#contact {
+  padding: 100px 0 50px;
+  background-color: #464648;
+  color: #FFF;
+  margin-top: 1px;
+   h1, h2 {
+    color: #FFF;
+  }
 }
 
-#footer
-{
+#contact-form {
+  position: relative;
+  overflow: hidden;
+  .contact-form {
+    background: rgba(255, 255, 255, .9);
+    padding: 30px 30px 10px;
+    top: 0px;
+    z-index: 1000;
+    position: absolute;
+    line-height: 1.5;
+    address {
+      line-height: 2;
+    }
+    abbr {
+      display: inline-block;
+      width: 100px;
+      border: 0;
+    }
+    h3 {
+      color: #444;
+      margin-top: 0;
+    }
+  }
+}
+
+#footer{
   line-height:70px;
+  text-align: center;
+  background-color: $gray-lighter;
+  margin-top: 1px;
 }
 
 .carousel-content {
@@ -18,4 +74,15 @@
     margin-bottom: 20px;
     font-size: 1.5em;
   }
+}
+
+#social {
+  text-align: center;
+  padding: 20px 20px 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.fa-facebook-square {
+  font-size: 48px;
 }

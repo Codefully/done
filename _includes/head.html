@@ -7,28 +7,26 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="">
 
-    <link href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/css/animate.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/css/owl.transitions.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/css/responsive.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	<!-- core CSS -->
-    <!--[if lt IE 9]>
+  <link href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/css/animate.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/css/owl.transitions.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/css/responsive.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->
-  <link rel="shortcut icon" href="{{ "/images/ico/favicon.ico" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/images/ico/apple-touch-icon-144-precomposed.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/images/ico/apple-touch-icon-114-precomposed.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ "/images/ico/apple-touch-icon-72-precomposed.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon-precomposed" href="{{ "/images/ico/apple-touch-icon-57-precomposed.png" | prepend: site.baseurl }}">
+  <![endif]-->
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <!-- photoswipe -->
   <link href="{{ "/css/photoswipe.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ "/css/photoswipe-default-skin/default-skin.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+  <!-- favicon -->
+  {% include favicon.html %}
 </head>
 
-</head><!--/head-->

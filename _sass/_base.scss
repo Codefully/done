@@ -21,10 +21,13 @@
 #gallery {
   padding: 100px 0;
   background: $gray-lighter;
+  p {
+    text-align: justify;
+  }
 }
 
 #about {
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 
 #contact {
@@ -76,13 +79,10 @@
   }
 }
 
-#social {
-  text-align: center;
-  padding: 20px 20px 15px;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
 .fa-facebook-square {
   font-size: 48px;
+}
+
+.gm-style-mtc {
+  display: none;
 }

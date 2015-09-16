@@ -5,7 +5,8 @@
 $brand-primary: #8ABE00;
 $gray: #464648;
 
-@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:800&subset=greek,latin');
+@import url('//fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic');
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import 'base';
 @import 'typography';
@@ -145,7 +146,7 @@ ul.nostyle {
       height: 64px;
       line-height: 62px;
       width: 64px;
-      border-radius: 50%; 
+      border-radius: 50%;
       color: $brand-primary;
       border: 1px solid $gray-light;
       transition: background-color 400ms, background-color 400ms;

@@ -6,7 +6,6 @@ $brand-primary: #8ABE00;
 $gray: #464648;
 
 @import url('//fonts.googleapis.com/css?family=Open+Sans:800&subset=greek,latin');
-@import url('//fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic');
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import 'base';
 @import 'typography';
@@ -16,7 +15,6 @@ $gray: #464648;
 
 body {
   padding-top: 100px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 26px;
   position: relative;
@@ -37,8 +35,8 @@ hr {
 .section-header {
   margin-bottom: 50px;
   .section-title {
-    font-size: 44px;
-    color: #272727;
+    font: 800 2.5em 'Open Sans', 'Roboto', sans-serif;
+    color: #464648;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 35px;

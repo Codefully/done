@@ -87,3 +87,91 @@
 .gm-style-mtc {
   display: none;
 }
+
+.post {
+  margin-bottom: 100px;
+}
+
+.post-content {
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.6;
+  .container {
+    max-width: 700px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+  img {
+    @extend .img-responsive;
+  }
+}
+
+.post-meta {
+  color: #AAA;
+  font-size: .8em;
+}
+
+.post-header {
+  .container {
+    position: relative;
+    height: 558px;
+    padding: 100px 0;
+  }
+  h1 {
+    font-size: 3.5em;
+    margin: 0;
+    z-index: 2;
+    color: #FFF;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 50px;
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(#000, .3);
+    z-index: 0;
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("/images/mask.png");
+    z-index: 1;
+    opacity: .5;
+  }
+}
+
+.blog-index {
+  border-top: 1px #EEE solid;
+  min-height: 500px;
+  .list-group-item {
+    border-width: 0 0 1px 0;
+    border-color: #EEE;
+    border-radius: 0;
+    padding: 30px 10px;
+    line-height: 1;
+    .badge {
+      background: none;
+      color: #AAA;
+      font-size: 1em;
+      font-weight: normal;
+      padding: 0;
+    }
+  }
+}

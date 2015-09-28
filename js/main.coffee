@@ -98,6 +98,10 @@ jQuery ($) ->
 	      $root.animate { scrollTop: $target.offset().top - 100 }, 1000, -> location.hash = $target.attr "id"
 	    return false
 
+    loading = ->
+      $("body").removeClass("loading").addClass("loaded")
+    setTimeout loading, 2000
+
     return
 
   # Initiate WOW JS

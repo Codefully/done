@@ -9,8 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.diacomopoulos.gr/" # the base hostname & protocol for your site
 permalink: /blog/:title
 
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown

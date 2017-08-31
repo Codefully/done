@@ -9,9 +9,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "3.5.2"
-gem "guard"
-gem "guard-jekyll-plus"
-gem "guard-livereload"
+# gem "guard"
+# gem "guard-jekyll-plus"
+# gem "guard-livereload"
 # gem "rack-livereload"
 # gem "thin"
 
@@ -24,9 +24,9 @@ gem "guard-livereload"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages"
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-coffeescript"
+  # gem "github-pages"
+  gem "hawkins"
+  # gem "jekyll-feed", "~> 0.6"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
